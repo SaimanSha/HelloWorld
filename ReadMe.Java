@@ -13,6 +13,6 @@ public class ReadMe {
         scanner = new Scanner(file);
         String course = scanner.nextLine();
         System.out.println("Welcome to " + course + "!");
-        scanner.close();
+        scanner.close(); // hello there
     }
 }
